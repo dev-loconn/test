@@ -1,0 +1,133 @@
+.content {
+  padding-top: 30px;
+
+  .main {
+    height: 376px;
+
+    // 职位分类
+    .position-type {
+      float: left;
+      width: 315px;
+      height: 100%;
+
+      ul {
+        width: 315px;
+        height: 100%;
+
+        li {
+          position: relative;
+          width: 315px;
+          height: 47px;
+          line-height: 47px;
+
+          h3 {
+            float: left;
+            font-size: 20px;
+            margin-right: 12px;
+          }
+
+          p {
+            float: left;
+
+            a {
+              margin-right: 25px;
+            }
+          }
+
+          i {
+            position: absolute;
+            top: 19px;
+            right: 17px;
+            width: 6px;
+            height: 11px;
+            z-index: 10;
+            background: url('/images/main_list_arrow.png') no-repeat;
+          }
+        }
+      }
+    }
+
+    // 轮播图
+    .banner {
+      float: right;
+      position: relative;
+      width: 840px;
+      height: 345px;
+      margin-top: 15px;
+      overflow: hidden;
+
+      ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 840*5px;
+        height: 345px;
+
+        li {
+          float: left;
+          width: 840px;
+          height: 345px;
+
+          img {
+            width: 840px;
+            height: 345px;
+          }
+        }
+      }
+
+      // 左右按钮
+      .btn {
+        position: absolute;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+        cursor: pointer;
+      }
+
+      .btn-left {
+        left: 0;
+        background: url('/images/banner_arrow_left.png') no-repeat center center;
+
+        &:hover {
+          background-image: url('/images/banner_arrow_left_highlight.png');
+        }
+      }
+
+      .btn-right {
+        right: 0;
+        background: url('/images/banner_arrow_right.png') no-repeat center center;
+
+        &:hover {
+          background-image: url('/images/banner_arrow_right_highlight.png');
+        }
+      }
+
+      // 底部小圆点 
+      ol {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+
+        li {
+          float: left;
+          width: 10px;
+          height: 10px;
+          border-radius: 5px;
+          background-color: #989898ab;
+          margin-right: 8px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &.curr {
+            width: 20px;
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

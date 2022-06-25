@@ -1,0 +1,93 @@
+.login-banner {
+  width: 100%;
+  height: 120px;
+  background-color: #00b38a;
+}
+.login-banner .login-wrap {
+  height: 83px;
+  padding-top: 37px;
+  background: url('../images/logo_ad.png') no-repeat left bottom;
+  background-size: 228px;
+}
+.login-banner .login-wrap .ad {
+  float: left;
+  padding-left: 237px;
+}
+.login-banner .login-wrap .ad img {
+  width: 330px;
+}
+.login-banner .login-wrap .ad p {
+  line-height: 30px;
+  color: white;
+  cursor: default;
+}
+.login-banner .login-wrap .login-form {
+  float: right;
+  margin-top: 5px;
+}
+.login-banner .login-wrap .login-form .tel {
+  float: left;
+  width: 215px;
+  height: 35px;
+  margin-right: 8px;
+  background-color: #fff;
+}
+.login-banner .login-wrap .login-form .tel .area-code {
+  float: left;
+  width: 60px;
+  height: 35px;
+  background: url(/images/arrow_down_small.png) no-repeat center right;
+}
+.login-banner .login-wrap .login-form .tel .area-code .area-code-curr {
+  margin-left: 11px;
+  line-height: 35px;
+  color: #cccccc;
+  cursor: default;
+}
+.login-banner .login-wrap .login-form .tel input {
+  float: left;
+  width: 140px;
+  height: 35px;
+  padding: 0 5px;
+}
+.login-banner .login-wrap .login-form .yzm {
+  float: left;
+  width: 145px;
+  height: 35px;
+  margin-right: 8px;
+  background-color: #fff;
+}
+.login-banner .login-wrap .login-form .yzm input {
+  float: left;
+  width: 85px;
+  padding-left: 5px;
+  height: 100%;
+}
+.login-banner .login-wrap .login-form .yzm i {
+  float: left;
+  line-height: 35px;
+  color: #f5f5f5;
+}
+.login-banner .login-wrap .login-form .yzm span {
+  float: left;
+  width: 50px;
+  height: 100%;
+  text-align: center;
+  line-height: 35px;
+  color: #00b38a;
+  cursor: pointer;
+}
+.login-banner .login-wrap .login-form .login-register {
+  float: left;
+  width: 105px;
+  height: 31px;
+  text-align: center;
+  line-height: 33px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #00b38a;
+  cursor: pointer;
+}
+.login-banner .login-wrap .login-form .login-register:hover {
+  background-color: #85c3a2;
+}

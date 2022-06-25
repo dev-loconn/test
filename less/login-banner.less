@@ -1,0 +1,115 @@
+// 通栏
+.login-banner {
+  width: 100%;
+  height: 120px;
+  background-color: #00b38a;
+
+  // 版心
+  .login-wrap {
+    height: 83px;
+    padding-top: 37px;
+    background: url('../images/logo_ad.png') no-repeat left bottom;
+    background-size: 228px;
+
+    // 左边广告位
+    .ad {
+      float: left;
+      padding-left: 237px;
+
+      img {
+        width: 330px;
+      }
+
+      p {
+        line-height: 30px;
+        color: white;
+        cursor: default;
+      }
+    }
+
+    // 右边登录表单
+    .login-form {
+      float: right;
+      margin-top: 5px;
+
+      // 手机号码
+      .tel {
+        float: left;
+        width: 215px;
+        height: 35px;
+        margin-right: 8px;
+        background-color: #fff;
+
+        .area-code {
+          float: left;
+          width: 60px;
+          height: 35px;
+          background: url(/images/arrow_down_small.png) no-repeat center right;
+
+          .area-code-curr {
+            margin-left: 11px;
+            line-height: 35px;
+            color: #cccccc;
+            cursor: default;
+          }
+        }
+
+        input {
+          float: left;
+          width: 140px;
+          height: 35px;
+          padding: 0 5px;
+        }
+      }
+
+      // 验证码
+      .yzm {
+        float: left;
+        width: 145px;
+        height: 35px;
+        margin-right: 8px;
+        background-color: #fff;
+
+        input {
+          float: left;
+          width: 85px;
+          padding-left: 5px;
+          height: 100%;
+        }
+
+        i {
+          float: left;
+          line-height: 35px;
+          color: #f5f5f5;
+        }
+
+        span {
+          float: left;
+          width: 50px;
+          height: 100%;
+          text-align: center;
+          line-height: 35px;
+          color: #00b38a;
+          cursor: pointer;
+        }
+      }
+
+      // 登录注册按钮
+      .login-register {
+        float: left;
+        width: 105px;
+        height: 31px;
+        text-align: center;
+        line-height: 33px;
+        border: 2px solid #fff;
+        color: #fff;
+        background-color: #00b38a;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #85c3a2;
+        }
+      }
+    }
+  }
+}

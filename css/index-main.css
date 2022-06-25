@@ -1,0 +1,108 @@
+.content {
+  padding-top: 30px;
+}
+.content .main {
+  height: 376px;
+}
+.content .main .position-type {
+  float: left;
+  width: 315px;
+  height: 100%;
+}
+.content .main .position-type ul {
+  width: 315px;
+  height: 100%;
+}
+.content .main .position-type ul li {
+  position: relative;
+  width: 315px;
+  height: 47px;
+  line-height: 47px;
+}
+.content .main .position-type ul li h3 {
+  float: left;
+  font-size: 20px;
+  margin-right: 12px;
+}
+.content .main .position-type ul li p {
+  float: left;
+}
+.content .main .position-type ul li p a {
+  margin-right: 25px;
+}
+.content .main .position-type ul li i {
+  position: absolute;
+  top: 19px;
+  right: 17px;
+  width: 6px;
+  height: 11px;
+  z-index: 10;
+  background: url('/images/main_list_arrow.png') no-repeat;
+}
+.content .main .banner {
+  float: right;
+  position: relative;
+  width: 840px;
+  height: 345px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.content .main .banner ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4200px;
+  height: 345px;
+}
+.content .main .banner ul li {
+  float: left;
+  width: 840px;
+  height: 345px;
+}
+.content .main .banner ul li img {
+  width: 840px;
+  height: 345px;
+}
+.content .main .banner .btn {
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+.content .main .banner .btn-left {
+  left: 0;
+  background: url('/images/banner_arrow_left.png') no-repeat center center;
+}
+.content .main .banner .btn-left:hover {
+  background-image: url('/images/banner_arrow_left_highlight.png');
+}
+.content .main .banner .btn-right {
+  right: 0;
+  background: url('/images/banner_arrow_right.png') no-repeat center center;
+}
+.content .main .banner .btn-right:hover {
+  background-image: url('/images/banner_arrow_right_highlight.png');
+}
+.content .main .banner ol {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+.content .main .banner ol li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #989898ab;
+  margin-right: 8px;
+}
+.content .main .banner ol li:last-child {
+  margin-right: 0;
+}
+.content .main .banner ol li.curr {
+  width: 20px;
+  background-color: #fff;
+}
